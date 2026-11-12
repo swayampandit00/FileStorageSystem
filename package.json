@@ -1,0 +1,11 @@
+{
+  "name": "mycloud",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm run dev --prefix apps/server",
+    "dev:client": "npm run dev --prefix apps/client",
+    "dev:mobile": "npm run start --prefix apps/mobile",
+    "dev:mobile:web": "npm run web --prefix apps/mobile",
+    "install:all": "npm install --prefix apps/server && npm install --prefix apps/client && npm install --prefix apps/mobile"
+  }
+}
